@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333; /* Dark gray text */
+  background: #F5F5F5; /* Light gray background */
+}
+
+/* Header Section */
+header {
+  background: #466FAA; /* Blue background for hero section */
+  color: #FFF; /* White text */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav .logo img {
+  height: 60px; /* Adjust logo size */
+  vertical-align: middle;
+}
+
+nav .logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #466FAA; /* Blue text for NGO name */
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #466FAA; /* Blue text for links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #E0B318; /* Gold/yellow on hover */
+}
+
+/* Hero Section */
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background: #E0B318; /* Gold/yellow button */
+  color: #FFF; /* White text */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #C99E14; /* Darker gold/yellow on hover */
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #FFF; /* White background for sections */
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #466FAA; /* Blue heading */
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background: #466FAA; /* Blue background for footer */
+  color: #FFF; /* White text */
+  text-align: center;
+  padding: 20px;
+}
+
+footer .footer-logo img {
+  height: 60px; /* Adjust logo size */
+  margin-bottom: 10px;
+}
+
+footer .social-links a {
+  color: #FFF; /* White text for links */
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+  color: #E0B318; /* Gold/yellow on hover */
+}
+
+/* Animations */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
