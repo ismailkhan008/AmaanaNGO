@@ -26,23 +26,29 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  background: #FFF;; 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
+nav .logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
 
 nav .logo img {
-  height: 60px; /* Adjust logo size */
+  height: 80px; 
   vertical-align: middle;
+  width: auto;
 }
 
 nav .logo span {
   font-size: 24px;
   font-weight: bold;
-  color: #466FAA; /* Blue text for NGO name */
+  color: #466FAA; 
   margin-left: 10px;
   vertical-align: middle;
 }
@@ -57,14 +63,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #466FAA; /* Blue text for links */
+  color: #466FAA; 
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #E0B318; /* Gold/yellow on hover */
+  color: #E0B318; 
 }
 
 /* Hero Section */
@@ -75,54 +81,55 @@ nav ul li a:hover {
 
 .cta-button {
   padding: 10px 20px;
-  background: #E0B318; /* Gold/yellow button */
-  color: #FFF; /* White text */
+  background: #E0B318; 
+  color: #FFF; 
   text-decoration: none;
   border-radius: 5px;
   transition: background 0.3s ease;
 }
 
 .cta-button:hover {
-  background: #C99E14; /* Darker gold/yellow on hover */
+  background: #C99E14; 
 }
 
 /* Sections */
 section {
   padding: 60px 20px;
   text-align: center;
-  background: #FFF; /* White background for sections */
+  background: #FFF; 
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-  color: #466FAA; /* Blue heading */
+  color: #466FAA; 
   margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
-  background: #466FAA; /* Blue background for footer */
-  color: #FFF; /* White text */
+  background: #466FAA; 
+  color: #FFF; 
   text-align: center;
   padding: 20px;
 }
 
 footer .footer-logo img {
-  height: 60px; /* Adjust logo size */
+  height: 80px; 
   margin-bottom: 10px;
+  width: auto;
 }
 
 footer .social-links a {
-  color: #FFF; /* White text for links */
+  color: #FFF; 
   margin: 0 10px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 footer .social-links a:hover {
-  color: #E0B318; /* Gold/yellow on hover */
+  color: #E0B318; 
 }
 
 /* Animations */
@@ -134,3 +141,22 @@ footer .social-links a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+  nav .logo img {
+    height: 60px; 
+  }
+
+  footer .footer-logo img {
+    height: 60px; 
+  }
+
+  nav .logo span {
+    font-size: 20px; 
+  }
+
+  nav {
+    padding: 10px;
+  }
+}
+
