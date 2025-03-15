@@ -244,3 +244,45 @@ footer p {
 }
 
 
+#about {
+  padding: 80px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0 auto 25px;
+  max-width: 700px;
+}
+
+
+.about-cta {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: #E0B318; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.about-cta:hover {
+  background: #fff;
+  color: #E0B318;
+  border-color: #E0B318;
+}
+
+
+
+
+

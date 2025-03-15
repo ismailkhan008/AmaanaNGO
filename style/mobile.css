@@ -58,4 +58,17 @@
         width: 24px;
         height: 24px;
       }
+
+      #about {
+        padding: 50px 15px;
+      }
+      
+      .about-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+      
+      .about-cta {
+        padding: 10px 25px;
+      }
   }
